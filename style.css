@@ -1,0 +1,21 @@
+* {
+  overflow: hidden;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+body {
+  font-family: "oswald";
+  background-image: url(/img/wp5809529.jpg);
+  background-repeat: no-repeat;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+/* footer classes*/
+footer a:hover {
+  color: green !important;
+  transition: 0.3s;
+}
