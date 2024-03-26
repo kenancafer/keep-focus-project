@@ -46,3 +46,14 @@ thirdController.addEventListener("click", function () {
     thirdAudio.pause();
   }
 });
+
+const volume1 = document.getElementById("firstAudio");
+const volume2 = document.getElementById("secondAudio");
+const volume3 = document.getElementById("thirdAudio");
+const volumeRange = document.getElementById("volume-input");
+
+volumeRange.addEventListener("input", function () {
+  volume1.volume = volumeRange.value / 100;
+  volume2.volume = volumeRange.value / 100;
+  volume3.volume = volumeRange.value / 100;
+});

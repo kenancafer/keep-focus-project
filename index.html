@@ -15,7 +15,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Keep Focus</title>
   </head>
   <body>
     <div class="text-center pt-5">
@@ -49,6 +49,7 @@
         id="firstAudio"
         src="sounds/birdsongs.mp3"
         type="audio/mp3"
+        controls
       ></audio>
       <i
         id="secondAudioControl"
@@ -58,6 +59,7 @@
         id="secondAudio"
         src="sounds/Kitrano - Vacant Sun.mp3"
         type="audio/mp3"
+        controls
       ></audio>
       <i
         id="thirdAudioControl"
@@ -67,7 +69,11 @@
         id="thirdAudio"
         src="sounds/Sémø - Home Journey.mp3"
         type="audio/mp3"
+        controls
       ></audio>
+      <div>
+        <input id="volume-input" type="range" />
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
